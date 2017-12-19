@@ -150,5 +150,7 @@ Pod::Spec.new do |s|
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   
   s.dependency 'JSON', '5.0.0'
+  s.dependency 'Core', '2.1.2'
+  s.dependency 'Node', '4.2.4'
 
 end
